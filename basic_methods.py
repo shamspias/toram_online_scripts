@@ -58,7 +58,7 @@ def trade(number_of_trade=1):
             pyautogui.click(x=trade_x_cordinates,y=200,clicks=2, interval=1.0)
             pyautogui.click(x=966,y=348,interval=1.0)
             pyautogui.click(x=700,y=560,interval=1.0)
-            trade_x_cordinates += 1
+            trade_x_cordinates += 100
         pyautogui.click(x=355,y=415,interval=1.0)
         pyautogui.click(x=680,y=530,interval=3.0)
         pyautogui.click(x=680,y=530,interval=1.0)
