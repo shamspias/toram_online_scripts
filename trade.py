@@ -5,4 +5,4 @@ screenWidth, screenHeight = pyautogui.size() # Get the size of the primary monit
 currentMouseX, currentMouseY = pyautogui.position() # Get the XY position of the mouse.
 
 pyautogui.hotkey('alt', 'tab')
-toram_options.trade(1)
+toram_options.trade(10)

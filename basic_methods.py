@@ -47,10 +47,10 @@ def open_trade():
 
 def trade(number_of_trade=1):
     """ Trade when get trade request """
-    trade_x_cordinates = 780
     close_all()
     for i in range(number_of_trade):
         open_trade()
+        trade_x_cordinates = 780
         pyautogui.click(x=1000,y=300,interval=0.5)
         pyautogui.click(x=880,y=655,interval=1.5)
         pyautogui.click(x=675,y=621,interval=0.5)
