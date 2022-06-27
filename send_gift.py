@@ -4,6 +4,7 @@ screenWidth, screenHeight = pyautogui.size() # Get the size of the primary monit
 
 currentMouseX, currentMouseY = pyautogui.position() # Get the XY position of the mouse.
 
+number = int(input("Number of gift want to send: "))
 pyautogui.hotkey('alt', 'tab')
-toram_options.send_gift(30)
+toram_options.send_gift(number)
 # pyautogui.click('gift_recive.png')
